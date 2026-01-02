@@ -4,7 +4,10 @@ body {
     font-family: "Segoe UI", Arial, sans-serif;
     background-color: #f8fafc; /* soft white */
 }
-
+.basic-border {
+    border: 2px solid black; /* Width, Style, Color */
+    padding: 10px; /* Space between content and border */
+}
 /* Left Menu Panel */
 .sidebar {
     position: fixed;
@@ -148,4 +151,5 @@ h6 {
 .section h3 {
     color: #3a6ea5;
 }
+
 </style>
