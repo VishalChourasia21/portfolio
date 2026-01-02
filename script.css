@@ -1,0 +1,151 @@
+<style>
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f8fafc; /* soft white */
+}
+
+/* Left Menu Panel */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 220px;
+    height: 100vh;
+    background-color: #1f3a5f; /* academic blue */
+    padding-top: 20px;
+}
+a, a > tt {
+    color: #224b8d;
+    text-decoration: none;
+}
+
+.div {
+            border: 2px solid black; /* A 2-pixel wide, solid black border */
+            padding: 5px; /* Adds space between text and border */
+        }
+
+/* Teaching Experience Section (unchanged unless used in this page) */
+.teaching-experience {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 90vw;
+    margin: auto;
+}
+
+.year-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    gap: 1vw;
+    align-items: center;
+    padding: 1vw 0;
+    border-bottom: 2px solid #ddd;
+}
+
+.year-row h6 {
+    grid-column: 1 / 2;
+    text-align: center;
+    font-size: clamp(1.2rem, 2vw, 2.5rem);
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.semester {
+    margin-top: 0.5vw;
+    font-size: clamp(0.8rem, 1vw, 1.2rem);
+    line-height: 1.5;
+    background: #f1f3f5;
+    padding: 0.5vw;
+    border-radius: 0.5vw;
+    box-shadow: 0 0.1vw 0.3vw rgba(0, 0, 0, 0.1);
+    border-left: 0.3vw solid #778492;
+}
+
+.semester strong {
+    color: #527bbd;
+    font-size: clamp(0.9rem, 1.1vw, 1.3rem);
+    text-decoration: underline;
+    display: inline;
+}
+.semester1 strong {
+    color: Black;
+    font-size: clamp(0.9rem, 1.1vw, 1.3rem);
+    text-decoration: none;
+    display: inline;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(clamp(250px, 20vw, 400px), 1fr));
+    column-gap: 2vw;
+    row-gap: 1.5vw;
+    width: 100%;
+    max-width: 80vw;
+    padding-left: 1vw;
+    margin-top: -0.5vw;
+}
+
+.year-box {
+    background-color: #a8b6af36;
+    padding: 1vw;
+    border: 2px solid #ddd;
+    border-radius: 0.5vw;
+    box-shadow: 0.2vw 0.2vw 0.5vw rgba(0, 0, 0, 0.1);
+}
+
+h6 {
+    font-size: clamp(1rem, 1.5vw, 1.8rem);
+    color: #527bbd;
+    text-align: center;
+    border-bottom: 2px solid #527bbd;
+    padding-bottom: 0.3vw;
+    margin-bottom: 0.5vw;
+    margin-top: 0.3vw;
+}
+
+#layout-menu {
+    background: #f6f6f6;
+    border: 1px solid #dddddd;
+    padding-top: 0.5vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    font-size: clamp(16px, 1vw, 80px); /* Scales but stays readable */
+    width: 12%; /* Fixed proportional width for menu */
+    white-space: nowrap;
+    text-align: left;
+    vertical-align: top;
+}
+.menu-item {
+    padding: 15px 20px;
+    color: #e6edf5;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+    background-color: cyan;
+}
+
+.menu-item:hover {
+    background-color: #3a6ea5; /* calm blue */
+}
+
+.menu-item.active {
+    background-color: #2f5f98;
+    font-weight: 600;
+}
+
+/* Right Content Area */
+.content {
+    margin-left: 220px;
+    padding: 35px;
+    color: #1f2937;
+}
+
+.section h1 {
+    color: #1f3a5f;
+}
+
+.section h3 {
+    color: #3a6ea5;
+}
+</style>
