@@ -11,7 +11,7 @@ table#tbllayout {
     width: 100%; /* Full viewport width */
     max-width: 100vw; /* No cap, full stretch */
     margin: 0 auto;
-}-->
+}
 
 html {
     font-size: clamp(16px, 1.1vw, 80px); /* Slightly larger base scaling */
@@ -160,6 +160,7 @@ h6 {
 }
 
 </style>
+
 
 
 
