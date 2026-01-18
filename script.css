@@ -1,3 +1,4 @@
+
 <style>
 body {
     margin: 0;
@@ -11,7 +12,7 @@ table#tbllayout {
     width: 100%; /* Full viewport width */
     max-width: 100vw; /* No cap, full stretch */
     margin: 0 auto;
-}
+}-->
 
 html {
     font-size: clamp(16px, 1.1vw, 80px); /* Slightly larger base scaling */
@@ -76,7 +77,7 @@ a, a > tt {
 }
 
 .semester strong {
-    color: #e6edf5;
+    color: #527bbd;
     font-size: clamp(1.2rem, 1.1vw, 1.3rem);
     text-decoration: underline;
     display: inline;
@@ -104,7 +105,7 @@ a, a > tt {
 
 h6 {
     font-size: clamp(1.5rem, 1.5vw, 1.8rem);
-    color: #CEFAFE;
+    color: #527bbd;
     text-align: center;
     border-bottom: 2px solid #527bbd;
     padding-bottom: 0.3vw;
@@ -158,13 +159,4 @@ h6 {
 .section h3 {
     color: #3a6ea5;
 }
-
 </style>
-
-
-
-
-
-
-
-
