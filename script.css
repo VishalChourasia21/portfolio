@@ -76,7 +76,7 @@ a, a > tt {
 }
 
 .semester strong {
-    color: #527bbd;
+    color: #e6edf5;
     font-size: clamp(1.2rem, 1.1vw, 1.3rem);
     text-decoration: underline;
     display: inline;
@@ -161,6 +161,7 @@ h6 {
 
 
 </style>
+
 
 
 
