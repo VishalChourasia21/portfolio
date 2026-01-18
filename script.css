@@ -104,7 +104,7 @@ a, a > tt {
 
 h6 {
     font-size: clamp(1.5rem, 1.5vw, 1.8rem);
-    color: #527bbd;
+    color: #CEFAFE;
     text-align: center;
     border-bottom: 2px solid #527bbd;
     padding-bottom: 0.3vw;
@@ -161,6 +161,7 @@ h6 {
 
 
 </style>
+
 
 
 
