@@ -27,6 +27,7 @@ html {
     height: 100vh;
     background-color: cyan; /* academic blue */
     padding-top: 20px;
+	font-weight: bold;
 }
 a, a > tt {
     color: #224b8d;
@@ -160,5 +161,6 @@ h6 {
     color: #3a6ea5;
 }
 </style>
+
 
 
