@@ -74,7 +74,6 @@ a, a > tt {
     border-radius: 0.5vw;
     box-shadow: 0 0.1vw 0.3vw rgba(0.1, 0, 0, 0.1);
     border-left: 0.3vw solid #778492;
-	
 }
 
 .semester strong {
@@ -133,6 +132,7 @@ h6 {
     transition: background 0.3s ease;
     text-decoration: none;
     background-color: cyan;
+	font-size: 16px;
 }
 
 .menu-item:hover {
