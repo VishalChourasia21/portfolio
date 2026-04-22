@@ -132,7 +132,7 @@ h6 {
     transition: background 0.3s ease;
     text-decoration: none;
     background-color: cyan;
-	font-size: 16px;
+	font-size: 24px;
 }
 
 .menu-item:hover {
