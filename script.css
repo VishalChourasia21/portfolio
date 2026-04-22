@@ -137,13 +137,14 @@ h6 {
 
 .menu-item:hover {
     background-color: #3a6ea5; /* calm blue */
-	font-size: 36px; /* Font size on hover */
+	font-size: 26px; /* Font size on hover */
 	color: #FFFFFF;
+	font-weight: bold;
 }
 
 .menu-item.active {
     background-color: #2f5f98;
-    font-weight: 600;
+    
 }
 
 /* Right Content Area */
