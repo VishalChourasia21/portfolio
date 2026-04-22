@@ -137,7 +137,7 @@ h6 {
 
 .menu-item:hover {
     background-color: #3a6ea5; /* calm blue */
-	font-size: 26px; /* Font size on hover */
+	
 	color: #FFFFFF;
 	font-weight: bold;
 }
