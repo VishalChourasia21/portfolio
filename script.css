@@ -38,6 +38,32 @@ a, a > tt {
             border: 2px solid black; /* A 2-pixel wide, solid black border */
             padding: 5px; /* Adds space between text and border */
         }
+/* Styles the Home button container */
+        .home-button-container {
+            position: fixed; /* Stays in place when scrolling */
+            top: 20px;       /* Distance from the top */
+            right: 20px;     /* Distance from the right */
+            z-index: 1000;   /* Keeps it above other content */
+        }
+
+        /* Styles the look of the button */
+        .home-btn {
+            background-color: #007BFF; /* Blue color */
+            color: white;              /* Text color */
+            padding: 10px 20px;        /* Sizing padding */
+            text-decoration: none;     /* Removes link underline */
+            border-radius: 5px;        /* Rounded corners */
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease;
+        }
+
+        /* Hover effect */
+        .home-btn:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+
 
 /* Teaching Experience Section (unchanged unless used in this page) */
 .teaching-experience {
