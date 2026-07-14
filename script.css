@@ -77,7 +77,7 @@ a, a > tt {
 .year-row {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
-    gap: 1vw;
+    gap: 0.5vw;
     align-items: center;
     padding: 1vw 0;
     border-bottom: 2px solid #ddd;
