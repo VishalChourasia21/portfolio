@@ -50,7 +50,7 @@ a, a > tt {
         .home-btn {
             background-color: #007BFF; /* Blue color */
             color: white;              /* Text color */
-            padding: 10px 20px;        /* Sizing padding */
+            padding: 5px 10px;        /* Sizing padding */
             text-decoration: none;     /* Removes link underline */
             border-radius: 5px;        /* Rounded corners */
             font-family: Arial, sans-serif;
