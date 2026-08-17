@@ -105,7 +105,7 @@ a, a > tt {
 .semester strong {
     color: #527bbd;
     font-size: clamp(1.2rem, 1.1vw, 1.3rem);
-    text-decoration: underline;
+    
     display: inline;
 }
 
