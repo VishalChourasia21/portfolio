@@ -8,6 +8,65 @@
 <link rel="stylesheet" href="script.css" type="text/css" />
 <!--<link rel="stylesheet" href="script1.css" type="text/css" />> -->
 <title>Vishal Chourasia</title>
+<!-code for responsive webiste-->
+	<style>
+/* Responsive layout */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+img, iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+.container, main, section {
+    max-width: 100%;
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+
+ }
+/* Mobile */
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    table {
+        display: block;
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
+    input, textarea, select, button {
+        max-width: 100%;
+    }
+}
+</style>
 </head>
 <body>
   <table summary="Table for page layout." id="tlayout">
